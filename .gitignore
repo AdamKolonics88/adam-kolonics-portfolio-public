@@ -1,0 +1,14 @@
+# Keep the portfolio public-safe: no exports, credentials, or local artifacts.
+.env
+.env.*
+*.key
+*.pem
+secrets/
+exports/
+*.xlsx
+*.csv
+*.pbix
+*.msapp
+*.zip
+.DS_Store
+Thumbs.db
